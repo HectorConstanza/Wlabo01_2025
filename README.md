@@ -11,3 +11,15 @@ introducción teórica de la guía o consulte con una búsqueda de su duda en go
 Repuesta: No hay cambios visibles en la página, porque las etiquetas <meta> no afectan directamente la apariencia visual.
 
 Pregunta 9: 
+Asegúrese de entender el valor del atributo src de la etiqueta img.
+¿Qué pasaría si la imagen está guardada en la misma carpeta de la página web?
+¿Y si está en una carpeta superior?”
+
+Repuesta: Si la imagen está en la misma carpeta que el archivo html, basta con poner:
+
+<img src="imagen.jpg" alt="Imagen">
+
+
+Si la imagen está en una carpeta superior es decir, fuera de la carpeta actual  se usa ../ para subir un nivel:
+<img src="../imagen.jpg" alt="Imagen">
+s
