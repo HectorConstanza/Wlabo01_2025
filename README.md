@@ -17,8 +17,8 @@ Asegúrese de entender el valor del atributo src de la etiqueta img.
 
 Repuesta: Si la imagen está en la misma carpeta que el archivo html, basta con poner:
 
-"<img src="imagen.jpg" alt="Imagen">"
+<!-- "<img src="imagen.jpg" alt="Imagen">" -->
 
 
 Si la imagen está en una carpeta superior es decir, fuera de la carpeta actual  se usa ../ para subir un nivel:
-"<img src="../imagen.jpg" alt="Imagen">"
+<!-- "<img src="../imagen.jpg" alt="Imagen">" -->
